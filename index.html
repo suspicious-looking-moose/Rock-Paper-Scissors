@@ -2,11 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 
     <title>Document</title>
 </head>
 <body>
     
+        
+    <div class="header">
+    <h1>ROCK, PAPER, SCISSORS</h1>
+    </div>  
+
+    <div class="main-body-container">
+
+    <div id="result-container">
+        <h2><span id="display-result">MAKE YOUR CHOICE</span></h2>
+    </div>
+
+     <div class='interface'>
+
+        <div class='ui' id="user-side">
+            <h3 id = "user-choice-icon">?</h3>
+            <h4 id='user-choice-text'>???</h4>
+            <h4 id='header-score'>PLAYER: <span id="user-score">0</span></h4></h4>
+        </div>
+
+
+        <div class='ui' id="comp-side">
+            <h3 id ='comp-choice-icon'>?</h3>
+            <h4 id='comp-choice-text'>???</h4>
+            <h4 id='header-score'>COMPUTER: <span id="comp-score">0</span></h4>
+        </div>
+    </div>
+
+
+
+    <div id='container'>
+        <button class='choice' id='rock'> 🪨 </button>
+        <button class='choice' id='paper'> 📜 </button>
+        <button class='choice' id='scissors'>  ✂️ </button>
+    </div>
+
+
+    <div id="overlay" onclick="off()">
+    <div id="play-again">
+
+    </div>
+
+<div style="padding:20px">
+  <h2>Overlay</h2>
+  <p>Add an overlay effect to the page content (100% width and height with a black background color with 50% opacity).</p>
+  <button onclick="on()">Turn on overlay effect</button>
+</div>
+
+</div>
+
 </body>
 </html>

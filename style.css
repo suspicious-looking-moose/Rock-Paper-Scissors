@@ -1,0 +1,103 @@
+
+* {
+}
+
+body {
+    font-family: 'Comic Sans MS';
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    color: rgb(108, 90, 173);
+    background-color: rgb(70, 70, 184);
+
+}
+
+.main-body-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 8px;    
+    background-color: white;
+
+}
+
+.interface, #result-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+} 
+
+h2 {
+    font-size: 20px;
+    background-color: rgb(70, 70, 184);
+    color: white;
+    width: 300px;
+    text-align: center;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.interface {
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.ui {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 64px;
+    height: 280px;
+    width: 240px;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 66px;
+    background-color: rgb(70, 70, 184);
+    gap: 40px;
+    padding-bottom: 100px;
+}
+
+.choice, #play-again {
+    font-size: 80px;
+    background-color: #b1a3e4;
+    border-color: #dcd4fa;
+    border-radius: 10px;
+    padding: 8px 22px;
+}
+
+.choice:hover, #play-again:hover  {
+    background-color: #d2cbec;
+    overflow: hidden ;
+}
+
+#user-choice-icon, #comp-choice-icon {
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+    height: 120px;
+}
+
+#header-score {
+    background-color: rgb(70, 70, 184);
+    color: white;
+    padding: 6px;
+    border-radius: 10px;
+}
